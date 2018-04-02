@@ -49,6 +49,28 @@ function reducer(state = initialState,action){
             return Object.assign( {}, state, { propToBeUsedOn: action.payload } );
         case UPDATE_FOUND :
             return Object.assign( {}, state, { found: action.payload } );
+        case UPDATE_REAL_ESTATE_AGENT :
+            return Object.assign( {}, state, { realEstateAgent: action.payload } );
+        case UPDATE_COST :
+            return Object.assign( {}, state, { cost: action.payload } );
+        case UPDATE_DOWN_PAYMENT :
+            return Object.assign( {}, state, { downPayment: action.payload } );
+        case UPDATE_CREDIT :
+            return Object.assign( {}, state, { credit: action.payload } );
+        case UPDATE_HISTORY :
+            return Object.assign( {}, state, { history: action.payload } );
+        case UPDATE_ADDRESS_ONE :
+            return Object.assign( {}, state, { addressOne: action.payload } );
+        case UPDATE_ADDRESS_TWO :
+            return Object.assign( {}, state, { addressTwo: action.payload } );
+        case UPDATE_ADDRESS_THREE :
+            return Object.assign( {}, state, { addressThree: action.payload } );
+        case UPDATE_FIRST_NAME :
+            return Object.assign( {}, state, { firstName: action.payload } );
+        case UPDATE_LAST_NAME :
+            return Object.assign( {}, state, { lastName: action.payload } );
+        case UPDATE_EMAIL :
+            return Object.assign( {}, state, { email: action.payload } );
         default: return state;
     }
 }
