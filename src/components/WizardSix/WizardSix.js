@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { connect } from 'react-redux';
 
-import updateDownPayment from '../../ducks/reducer';
+import { updateDownPayment } from '../../ducks/reducer';
 
 class WizardSix extends Component {
 

@@ -77,83 +77,115 @@ function reducer(state = initialState,action){
 
 //ACTION TYPES
 export var updateLoanType = loanType => {
-    type: UPDATE_LOAN_TYPE;
-    payload: loanType;
-};
+    return{
+        type: UPDATE_LOAN_TYPE,
+        payload: loanType
+    };
+}
 
 export var updatePropertyType = property => {
-    type: UPDATE_PROPERTY_TYPE;
-    payload: property;
+    return{
+        type: UPDATE_PROPERTY_TYPE,
+        payload: property  
+    };
 }
 
 export var updateCity = city => {
-    type: UPDATE_CITY;
-    payload: city;
+    return{
+        type: UPDATE_CITY,
+        payload: city
+    };
 }
 
 export var updateProp = prop => {
-    type: UPDATE_PROP;
-    payload: prop;
+    return{
+        type: UPDATE_PROP,
+        payload: prop
+    };
 }
 
 export var updateFound = found => {
-    type: UPDATE_FOUND;
-    payload: found;
+    return{
+        type: UPDATE_FOUND,
+        payload: found
+    };
 }
 
 export var updateRealEstateAgent = realEstateAgent => {
-    type: UPDATE_REAL_ESTATE_AGENT;
-    payload: realEstateAgent;
+    return{
+        type: UPDATE_REAL_ESTATE_AGENT,
+        payload: realEstateAgent
+    };
 }
 
 export var updateCost = cost => {
-    type: UPDATE_COST;
-    payload: cost;
+    return{
+        type: UPDATE_COST,
+        payload: cost
+    };
 }
 
 export var updateDownPayment = downPayment => {
-    type: UPDATE_DOWN_PAYMENT;
-    payload: downPayment;
+    return{
+        type: UPDATE_DOWN_PAYMENT,
+        payload: downPayment
+    };
 }
 
-export var updateCedit = credit => {
-    type: UPDATE_CREDIT;
-    payload: credit;
+export var updateCredit = credit => {
+    return{
+        type: UPDATE_CREDIT,
+        payload: credit
+    };
 }
 
 export var updateHistory = history => {
-    type: UPDATE_HISTORY;
-    payload: history;
+    return{
+        type: UPDATE_HISTORY,
+        payload: history
+    };
 }
 
 export var updateAddressOne = addressOne => {
-    type: UPDATE_ADDRESS_ONE;
-    payload: addressOne;
+    return{
+        type: UPDATE_ADDRESS_ONE,
+        payload: addressOne
+    };
 }
 
 export var updateAddressTwo = addressTwo => {
-    type: UPDATE_ADDRESS_TWO;
-    payload: addressTwo;
+    return{
+        type: UPDATE_ADDRESS_TWO,
+        payload: addressTwo
+    };
 }
 
 export var updateAddressThree = addressThree => {
-    type: UPDATE_ADDRESS_THREE;
-    payload: addressThree;
+    return{
+        type: UPDATE_ADDRESS_THREE,
+        payload: addressThree
+    };
 }
 
 export var updateFirstName = firstName => {
-    type: UPDATE_FIRST_NAME;
-    payload: firstName;
+    return{
+        type: UPDATE_FIRST_NAME,
+        payload: firstName
+    };
 }
 
 export var updateLastName = LastName => {
-    type: UPDATE_LAST_NAME;
-    payload: LastName;
+    return{
+        type: UPDATE_LAST_NAME,
+        payload: LastName
+    };
 }
 
 export var updateEmail = email => {
-    type: UPDATE_EMAIL;
-    payload: email;
+    return{
+        type: UPDATE_EMAIL,
+        payload: email
+    };
 }
 
 export default reducer;

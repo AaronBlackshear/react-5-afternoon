@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { connect } from 'react-redux';
 
-import updateFound from '../../ducks/reducer';
+import { updateFound } from '../../ducks/reducer';
 
 class WizardFour extends Component {
     render(){

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { connect } from 'react-redux';
 
-import updateRealEstateAgent from '../../ducks/reducer';
+import { updateRealEstateAgent } from '../../ducks/reducer';
 
 class WizardFive extends Component {
 
