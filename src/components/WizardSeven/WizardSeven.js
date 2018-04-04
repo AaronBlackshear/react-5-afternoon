@@ -15,10 +15,10 @@ class WizardSeven extends Component {
                     <p>Estimate your credit score</p> <br />
                     
                     <div className="row">
-                        <Link to="/wEight"><button onClick={(e) => updateCredit( e.target.value )}>Excellent</button></Link>
-                        <Link to="/wEight"><button onClick={(e) => updateCredit( e.target.value )}>Good</button></Link>
-                        <Link to="/wEight"><button onClick={(e) => updateCredit( e.target.value )}>Fair</button></Link>
-                        <Link to="/wEight"><button onClick={(e) => updateCredit( e.target.value )}>Poor</button></Link>
+                        <Link to="/wEight"><button onClick={e => this.props.updateCredit( 'Excellent' )}>Excellent</button></Link>
+                        <Link to="/wEight"><button onClick={e => this.props.updateCredit( 'Good' )}>Good</button></Link>
+                        <Link to="/wEight"><button onClick={e => this.props.updateCredit( 'Fair' )}>Fair</button></Link>
+                        <Link to="/wEight"><button onClick={e => this.props.updateCredit( 'Poor' )}>Poor</button></Link>
                     </div>
                 </div>
             </div>

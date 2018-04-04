@@ -75,7 +75,7 @@ function reducer(state = initialState,action){
     }
 }
 
-//ACTION TYPES
+//ACTION CREATORS
 export var updateLoanType = loanType => {
     return{
         type: UPDATE_LOAN_TYPE,

@@ -13,7 +13,7 @@ class WizardTwo extends Component {
             
                 <p>In what city will the property be located?</p><br />
                     
-                        <input placeholder="city name" type="text" onChange={e => updateCity(e.target.value)}/>
+                        <input placeholder="city name" type="text" onChange={e => this.props.updateCity(e.target.value)}/>
                 
                     <Link to="/wThree"><button className="wTwo-btn"> Next </button></Link>
                 </div>
